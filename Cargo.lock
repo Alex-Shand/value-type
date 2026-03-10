@@ -42,7 +42,7 @@ checksum = "32a282da65faaf38286cf3be983213fcf1d2e2a58700e808f83f4ea9a4804bc0"
 [[package]]
 name = "proc"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#90419cd8ec3fc395799eda46198cce81e9e870d1"
+source = "git+https://github.com/Alex-Shand/proc.git#0c325d1ee4ebe4ccf0ef94fa72eb42ee6955cc16"
 dependencies = [
  "proc_attribute",
  "proc_common",
@@ -72,7 +72,7 @@ dependencies = [
 [[package]]
 name = "proc_attribute"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#90419cd8ec3fc395799eda46198cce81e9e870d1"
+source = "git+https://github.com/Alex-Shand/proc.git#0c325d1ee4ebe4ccf0ef94fa72eb42ee6955cc16"
 dependencies = [
  "proc_common",
 ]
@@ -80,7 +80,7 @@ dependencies = [
 [[package]]
 name = "proc_common"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#90419cd8ec3fc395799eda46198cce81e9e870d1"
+source = "git+https://github.com/Alex-Shand/proc.git#0c325d1ee4ebe4ccf0ef94fa72eb42ee6955cc16"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -92,7 +92,7 @@ dependencies = [
 [[package]]
 name = "proc_derive"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#90419cd8ec3fc395799eda46198cce81e9e870d1"
+source = "git+https://github.com/Alex-Shand/proc.git#0c325d1ee4ebe4ccf0ef94fa72eb42ee6955cc16"
 dependencies = [
  "convert_case",
  "proc_attribute",
@@ -102,7 +102,7 @@ dependencies = [
 [[package]]
 name = "proc_function"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#90419cd8ec3fc395799eda46198cce81e9e870d1"
+source = "git+https://github.com/Alex-Shand/proc.git#0c325d1ee4ebe4ccf0ef94fa72eb42ee6955cc16"
 dependencies = [
  "proc_attribute",
  "proc_common",
@@ -111,7 +111,7 @@ dependencies = [
 [[package]]
 name = "proc_parse"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#90419cd8ec3fc395799eda46198cce81e9e870d1"
+source = "git+https://github.com/Alex-Shand/proc.git#0c325d1ee4ebe4ccf0ef94fa72eb42ee6955cc16"
 dependencies = [
  "proc_common",
  "proc_derive",
@@ -119,9 +119,9 @@ dependencies = [
 
 [[package]]
 name = "quote"
-version = "1.0.44"
+version = "1.0.45"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "21b2ebcf727b7760c461f091f9f0f539b77b8e87f2fd88131e7f1b433b3cece4"
+checksum = "41f2619966050689382d2b44f664f4bc593e129785a36d6ee376ddf37259b924"
 dependencies = [
  "proc-macro2",
 ]
