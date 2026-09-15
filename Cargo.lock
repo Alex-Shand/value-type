@@ -42,7 +42,7 @@ checksum = "32a282da65faaf38286cf3be983213fcf1d2e2a58700e808f83f4ea9a4804bc0"
 [[package]]
 name = "proc"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#68142d871954f388a8b369e7022b7ae2d987569a"
+source = "git+https://github.com/Alex-Shand/proc.git#9dc7668d16c1bdb5306a17817407547f7bab77d7"
 dependencies = [
  "proc_attribute",
  "proc_common",
@@ -72,7 +72,7 @@ dependencies = [
 [[package]]
 name = "proc_attribute"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#68142d871954f388a8b369e7022b7ae2d987569a"
+source = "git+https://github.com/Alex-Shand/proc.git#9dc7668d16c1bdb5306a17817407547f7bab77d7"
 dependencies = [
  "proc_common",
 ]
@@ -80,7 +80,7 @@ dependencies = [
 [[package]]
 name = "proc_common"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#68142d871954f388a8b369e7022b7ae2d987569a"
+source = "git+https://github.com/Alex-Shand/proc.git#9dc7668d16c1bdb5306a17817407547f7bab77d7"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -92,7 +92,7 @@ dependencies = [
 [[package]]
 name = "proc_derive"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#68142d871954f388a8b369e7022b7ae2d987569a"
+source = "git+https://github.com/Alex-Shand/proc.git#9dc7668d16c1bdb5306a17817407547f7bab77d7"
 dependencies = [
  "convert_case",
  "proc_attribute",
@@ -102,7 +102,7 @@ dependencies = [
 [[package]]
 name = "proc_function"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#68142d871954f388a8b369e7022b7ae2d987569a"
+source = "git+https://github.com/Alex-Shand/proc.git#9dc7668d16c1bdb5306a17817407547f7bab77d7"
 dependencies = [
  "proc_attribute",
  "proc_common",
@@ -111,7 +111,7 @@ dependencies = [
 [[package]]
 name = "proc_parse"
 version = "0.1.0"
-source = "git+https://github.com/Alex-Shand/proc.git#68142d871954f388a8b369e7022b7ae2d987569a"
+source = "git+https://github.com/Alex-Shand/proc.git#9dc7668d16c1bdb5306a17817407547f7bab77d7"
 dependencies = [
  "proc_common",
  "proc_derive",
